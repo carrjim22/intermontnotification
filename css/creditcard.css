@@ -1,0 +1,75 @@
+
+.credit-card {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  border-radius: 14px;
+  width: 260px;
+  height: 180px;
+  display: block;
+  position: relative;
+  padding: 10px 20px;
+  left: -4px;
+  top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 8px  black;
+  z-index: 99;
+}
+h4{
+  margin-bottom: 0;
+}
+
+.logo-card {
+  max-width: 50px;
+  margin-bottom: 15px;
+  margin-top: -19px;
+}
+
+label {
+  margin-top: -15px;
+  display: flex;
+  font-size: 10px;
+  color: rgb(43, 43, 43);
+  opacity: 0.4;
+}
+
+input {
+  margin-top: -10px;
+  font-family: "Work Sans", sans-serif;
+  background: transparent;
+  border: none;
+
+  border-bottom: 1px solid transparent;
+  color: #dbdce0;
+  transition: border-bottom 0.4s;
+}
+input:focus {
+  border-bottom: 1px solid #1abc9c;
+  outline: none;
+}
+
+.cardnumber {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.name {
+  display: block;
+  font-size: 12px;
+  width: 140px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.toleft {
+  float: left;
+}
+.ccv {
+  width: 50px;
+  margin-top: -5px;
+  font-size: 10px;
+}
+

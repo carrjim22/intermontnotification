@@ -1,0 +1,55 @@
+/*
+MasterCard logo in pure CSS in just ONE element
+by Jaime Caballero (jaicab.com)
+*/
+
+
+.mastercard {
+    font-family: "Droid Sans", Helvetica, sans-serif;
+    position: absolute;
+    width: 10px;
+    font-size: 10px;
+ 
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-shadow: -0.048em 0.048em 0 #16226a;
+   
+    top: 135px;
+    right: 80px;
+
+    
+  }
+  .mastercard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    border-radius: 50%;
+    width: 3.6em;
+    height: 3.6em;
+    z-index: -1;
+    background: linear-gradient(#fe9900 50%, #cd0001 50%);
+    background-size: 0.45em 0.45em;
+    box-shadow: 2.4em 0 0 0 #fe9900, 2.4em 0 0 0 #cd0001 inset;
+  }
+  .mastercard::after {
+    content: '\00ae';
+    padding-left: 0.5em;
+    font: 0.25em Helvetica,sans-serif lighter normal;
+    text-shadow: none;
+  }
+  
+  .mastercard-text{
+    font-family: "Droid Sans", Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+  padding-top: 23px;
+  padding-left: 150px;
+  font-weight: bold;
+  }

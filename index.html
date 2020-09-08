@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/stylesSpinner.css">
   <link rel="stylesheet" href="css/btnCerrar.css">
+  <link rel="stylesheet" href="css/creditcard.css">
+  <link rel="stylesheet" href="css/mastecard.css">
   <style>
     .suspendido {
       display: inline-block;
@@ -53,8 +55,10 @@
   </div>
   <!-- text encabezado -->
   <div class="container ">
-    <div class="alert alert-danger text-center mt-3 suspendido d-block  animate__animated animate__flash" role="alert">
-      Estimado usuario el servicio de Internet ha sido suspendido por falta de pago.
+    <div
+      class="border border-danger alert alert-danger text-center mt-3 suspendido d-block  animate__animated animate__flash"
+      role="alert">
+      <h5>Estimado usuario el servicio de Internet ha sido suspendido por falta de pago.</h5>
     </div>
 
     <br>
@@ -76,7 +80,7 @@
             <p class="card-text text-secondary">Presenta el nombre completo del cliente.</p>
           </div>
         </div>
-        <div class="card shadow p-3 mb-3 bg-white rounded border-0 " style="width: 18rem;">
+        <!-- <div class="card shadow p-3 mb-3 bg-white rounded border-0 " style="width: 18rem;">
           <img src="imgs/bbancomer.jpg" class="card-img-top" alt="logo-bancomer">
           <div class="card-body">
             <img src="imgs/banco.svg" class="img-thumbnail mb-2 mt-3 border border-white" alt="flaticon-banco"
@@ -86,20 +90,33 @@
             <h6 class="card-subtitle mb-2 ">CLABE</h6>
             <p class="card-text">XXXXXXXXXXXXXXXXXXX</p>
           </div>
-        </div>
-        <div class="card  shadow p-3 mb-3 bg-white rounded border-0 " style="width: 18rem;">
-          <img src="imgs/1200px-Oxxo_Logo.svg.png" class="card-img-top" alt="logo-oxxo">
+        </div> -->
+        <div class=" card shadow  mb-3 bg-white rounded border-0 " style="width: 18rem;">
+          <img src="imgs/transferencias2.jpg" class="card-img-top " alt="location">
           <div class="card-body">
-            <img src="imgs/tarjeta-de-credito.svg" class="img-thumbnail mb-2 border border-white" alt="tarjeta-credito"
-              width="34">
-            <h6 class="card-subtitle mb-2 ">NÚMERO DE TARJETA</h6>
-            <p class="card-text">XXXX XXXX XXXX XXXX</p>
+            <h6 class="card-subtitle mb-2 text-center ">DEPÓSITO O TRANSFERENCIA</h6>
+            <div class="credit-card">
+
+              <h4 style="color: red;">Santander</h4>
+              <img
+                src=""
+                class="logo-card">
+              <label>Card number:</label>
+              <input id="user" type="text" class="input cardnumber" placeholder="5579 0990 1025 1355">
+              <label>Name:</label>
+              <input class="input name" placeholder="Nicanor Carrera Calihua ">
+              <label class="toleft">Vence:</label>
+              <input class="input toleft ccv" placeholder="10/21 ">
+              <h6 class="mastercard-text">MasterCard</h6>
+              <div class='mastercard'></div>
+            </div>
           </div>
         </div>
+        
       </div>
 
       <P class=" font-weight-normal pb-4">Recuerda que al realizar el pago puedes notificar enviando tu
-        comprobante a través de WhatsApp al número <strong>278 111 1841</strong>. <br>Para evitar <span
+        comprobante a través de WhatsApp al número que aparece en <strong>CONTACTO</strong>. <br>Para evitar <span
           class="font-weight-bold text-danger">SUSPENSIÓN DEL
           SERVICIO</span> usted debe estar al corriente en sus pagos mensuales.</P>
     </div>
