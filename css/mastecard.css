@@ -18,7 +18,7 @@ by Jaime Caballero (jaicab.com)
     text-shadow: -0.048em 0.048em 0 #16226a;
    
     top: 135px;
-    right: 60px;
+    right: 80px;
 
     
   }
@@ -46,13 +46,10 @@ by Jaime Caballero (jaicab.com)
   }
   
   .mastercard-text{
-    position: absolute;
     font-family: "Droid Sans", Helvetica, sans-serif;
     color: white;
     font-size: 10px;
   padding-top: 23px;
   padding-left: 150px;
   font-weight: bold;
-  top: 122px;
-  right: 12px;
   }
