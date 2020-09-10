@@ -20,47 +20,112 @@
 h4{
   margin-bottom: 0;
 }
+ .chip{
+   position: absolute;
+   display: block;
+   width: 30px;
+   height: 20px;
+   background-color: gray;
+      border-radius: 3px;
+      border: 1px gray;
+     
+ }
+ .chip .l1{
+   width: 14px;
+   height: 6px;
+   display: block;
+  background-color:#F7DC6F; 
+  border-radius: 3px 0 0 0;
 
-.logo-card {
-  max-width: 50px;
-  margin-bottom: 15px;
-  margin-top: -19px;
-}
+ 
+  }
+  .chip .l2{
+    margin-top: 1px;
+    width: 14px;
+    height: 6px;
+    display: block;
+   background-color:#F7DC6F ;
+   }
 
-label {
-  margin-top: -15px;
-  display: flex;
-  font-size: 10px;
-  color: rgb(43, 43, 43);
-  opacity: 0.4;
-}
+   .chip .l3{
+    margin-top: 1px;
+    width: 14px;
+    height: 6px;
+    display: block;
+   background-color:#F7DC6F;
+   border-radius: 0 0 0 3px;
+   }
+   .chip .l4{
+     position: absolute;
+    right: 0;
+    top: 0;
+    width: 14px;
+    height: 6px;
+    display: block;
+   background-color:#F7DC6F;
+   border-radius: 0 3px 0 0;
+   }
+   .chip .l5{
+    position: absolute;
+   right: 0;
+   top: 7px;
+   width: 14px;
+   height: 6px;
+   display: block;
+  background-color:#F7DC6F;
+  border-radius: 0 0 0 0;
+  }
+  .chip .l6{
+    position: absolute;
+   right: 0;
+   top: 14px;
+   width: 14px;
+   height: 6px;
+   display: block;
+  background-color:#F7DC6F;
+  border-radius: 0 0 3px 0;
+  }
 
-input {
-  margin-top: -10px;
-  font-family: "Work Sans", sans-serif;
-  background: transparent;
-  border: none;
-
-  border-bottom: 1px solid transparent;
-  color: #dbdce0;
-  transition: border-bottom 0.4s;
-}
-input:focus {
-  border-bottom: 1px solid #1abc9c;
-  outline: none;
-}
-
-.cardnumber {
-  display: block;
-  font-size: 20px;
+.cardnumbers {
+ 
+  position: absolute;
+ color: rgb(136, 135, 135);
+  font-size: 22px;
   margin-bottom: 20px;
+  font-family: 'Oxanium', cursive;
+  top: 90px;  
 }
-
-.name {
+.inicialnumber{
+ font-size: 10px;
+  width: 40px;
   display: block;
+  margin-top: 50px;
+
+}
+.valid-thru{
+  font-size: 6px;
+   width: 40px;
+   display: block;
+   margin-top: -10px;
+   margin-left: 80px;
+   color: rgb(49, 49, 49);
+   font-weight: bold;
+ }
+ .valid-thru-date{
   font-size: 12px;
-  width: 140px;
-  float: left;
+   width: 40px;
+   display: block;
+   margin-top: -18px;
+   margin-left: 100px;
+   color: rgb(49, 49, 49);
+   font-weight: bold;
+ }
+.cardname {
+  position: absolute;
+  color: rgb(136, 135, 135);
+  font-size: 11px;
+  font-family: 'Oxanium', cursive;  
+top: 150px;
   margin-bottom: 15px;
 }
 
